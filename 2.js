@@ -21,10 +21,23 @@
 // 5 / 2 = 2.50
 
 //solution
-const calculator = (num1, num2) => {
-    console.log(num1, '+', num2, "=", num1 + num2);
-    console.log(num1, '-', num2, "=", num1 - num2);
-    console.log(num1, '*', num2, "=", num1 * num2);
-    console.log(num1, '/', num2, "=", num1 / num2);
-}
-calculator(1, 2)
+// const calculator = (num1, num2) => {
+//     console.log(num1, '+', num2, "=", num1 + num2);
+//     console.log(num1, '-', num2, "=", num1 - num2);
+//     console.log(num1, '*', num2, "=", num1 * num2);
+//     console.log(num1, '/', num2, "=", num1 / num2);
+// }
+// calculator(1, 2)
+
+//Q-3 তোমাকে একটি অঋণাত্মক(০ বা এর থেকে বড়) সংখ্যা নিতে হবে এবং বলতে হবে সংখ্যাটি জোড়(even) নাকি বিজোড়(odd)।
+// আরও বোঝার জন্য নীচে দেওয়া ইনপুট এবং আউটপুট গুলো খেয়াল করো।
+
+// solution
+// const oddEvenChecker = (num) => {
+//     if (num % 2 === 0) {
+//         console.log('even');
+//     } else {
+//         console.log("odd");
+//     }
+// }
+// oddEvenChecker(4)
