@@ -41,3 +41,17 @@
 //     }
 // }
 // oddEvenChecker(4)
+
+//Q-4 তোমাকে একটি ইন্টিজার ভ্যেলু ইনপুট নিতে হবে এবং বলতে হবে এটি ধনাত্মক(positive) নাকি ঋণাত্মক(negative) নাকি শূণ্য(zero)।
+
+// solution
+// const numberChecker = (num) => {
+//     if (num < 0) {
+//         console.log('Negative');
+//     } else if (num > 0) {
+//         console.log('Positive');
+//     } else {
+//         console.log('Zero');
+//     }
+// }
+// numberChecker(-9)
