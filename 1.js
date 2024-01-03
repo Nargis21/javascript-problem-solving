@@ -22,14 +22,11 @@ const arr = [1, 5, 9, 14, 5, 22, 48, 25, 22, 20, 9, 13];
 
 //Q: How to find out the largest / lowest elements from this array ?
 
-const largestElement = Math.max(...arr)
-console.log(largestElement);
+//solution
+// const largestElement = Math.max(...arr)
+// console.log(largestElement);
 
-const lowestElement = Math.min(...arr)
-console.log(lowestElement);
-
-
-
-
+// const lowestElement = Math.min(...arr)
+// console.log(lowestElement);
 
 // How to slice(22, 48) from this array
