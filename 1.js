@@ -20,7 +20,15 @@ const arr = [1, 5, 9, 14, 5, 22, 48, 25, 22, 20, 9, 13];
 
 // console.log(uniqueArray);
 
-// How to find out the largest / lowest elements from this array ?
+//Q: How to find out the largest / lowest elements from this array ?
+
+const largestElement = Math.max(...arr)
+console.log(largestElement);
+
+const lowestElement = Math.min(...arr)
+console.log(lowestElement);
+
+
 
 
 
