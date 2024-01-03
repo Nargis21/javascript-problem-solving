@@ -55,3 +55,45 @@
 //     }
 // }
 // numberChecker(-9)
+
+//Q-5 ধরো তোমার এক বন্ধু তোমাকে বলেছে সে একটি Gucci Bag কিনবে যদি তার কাছে ১০ হাজার টাকা বা এর বেশি থাকে। নাহলে যদি তার কাছে ৫ হাজার বা এর বেশি টাকা থাকে তাহলে সে Levis Bag কিনবে। আর নাহলে সে নিউ মার্কেট থেকে কিছু(Something) কিনে নিবে। সে তোমাকে আরও বললো যে, যদি সে Gucci Bag কিনতে পারে এবং তার কাছে যদি ২০ হাজার টাকা এর বেশি থাকে তাহলে সে আরও একটি Gucci Belt কিনবে।
+// এখন ধরো তুমি জানো তোমার বন্ধুর কাছে কত টাকা আছে, তুমি কি বলতে পারবে সে কোন কোন জিনিস গুলো কিনবে ?
+
+//solution-1
+
+// const shopping = (amount) => {
+//     if (amount > 20000) {
+//         console.log("Gucci Bag & Gucci Belt");
+//     } else if (amount >= 10000) {
+//         console.log("Gucci Bag");
+//     } else if (amount >= 5000) {
+//         console.log("Levis Bag");
+//     } else {
+//         console.log("Something");
+//     }
+// }
+
+// shopping(4000)
+
+// Function to suggest purchases based on the amount of money
+// function suggestPurchases(moneyAmount) {
+//     switch (true) {
+//         case moneyAmount > 20000:
+//             console.log(`You can buy a Gucci Bag and a Gucci Belt.`);
+//             break;
+//         case moneyAmount >= 10000:
+//             console.log(`You can buy a Gucci Bag.`);
+//             break;
+//         case moneyAmount >= 5000:
+//             console.log(`You can buy a Levis Bag.`);
+//             break;
+//         default:
+//             console.log(`You should buy something from the New Market.`);
+//     }
+// }
+
+// // Example: Assume your friend has 15000 Taka
+// const friendMoney = 4000;
+
+// // Call the function with your friend's money
+// suggestPurchases(friendMoney);
